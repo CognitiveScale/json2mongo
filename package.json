@@ -1,6 +1,6 @@
 {
   "name": "@c12e/json2mongo",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A MongoDB Extended JSON conversion utility which converts Strict Mode syntax to JavaScript Mode",
   "private": false,
   "publishConfig": {
