@@ -1,7 +1,11 @@
 {
-  "name": "json2mongo",
+  "name": "@c12e/json2mongo",
   "version": "2.0.0",
   "description": "A MongoDB Extended JSON conversion utility which converts Strict Mode syntax to JavaScript Mode",
+  "private": false,
+  "publishConfig": {
+    "registry": "https://cognitivescale.jfrog.io/cognitivescale/api/npm/npm-local/"
+  },
   "main": "index.js",
   "browser": "browser.js",
   "scripts": {
@@ -9,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/watson/json2mongo.git"
+    "url": "git@github.com:CognitiveScale/json2mongo.git"
   },
   "keywords": [
     "mongo",
@@ -21,7 +25,7 @@
   "author": "Thomas Watson Steen <w@tson.dk> (https://twitter.com/wa7son)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/watson/json2mongo/issues"
+    "url": "https://github.com/CognitiveScale/json2mongo/issues"
   },
   "dependencies": {
     "mongodb": "^2.2.11"
@@ -29,7 +33,7 @@
   "devDependencies": {
     "standard": "^10.0.3"
   },
-  "homepage": "https://github.com/watson/json2mongo#readme",
+  "homepage": "https://github.com/CognitiveScale/json2mongo#readme",
   "engines": {
     "node": ">=5.10.0"
   },
