@@ -28,7 +28,7 @@
     "url": "https://github.com/CognitiveScale/json2mongo/issues"
   },
   "dependencies": {
-    "mongodb": "^2.2.11"
+    "mongodb": ">=2.2.11 <4"
   },
   "devDependencies": {
     "standard": "^10.0.3"
